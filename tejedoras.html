@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tejedoras · La Pampa Teje</title>
+  <meta name="description" content="Biografías de las tejedoras y tejedores que participan de La Pampa Teje.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="inicio tejedoras-pag">
+
+  <!-- ===== Menú ===== -->
+  <nav class="menu" aria-label="Principal">
+    <ul class="menu__lista">
+      <!-- Las demás páginas se enlazan cuando estén aprobadas -->
+      <li><a class="menu__link" href="index.html">Inicio</a></li>
+      <li><a class="menu__link" href="historia.html">Historia</a></li>
+      <li><a class="menu__link" href="tejedoras.html" aria-current="page">Tejedoras</a></li>
+      <li><a class="menu__link" href="piezas.html">Piezas</a></li>
+      <li><a class="menu__link" href="proceso.html">Proceso</a></li>
+      <li><a class="menu__link" href="muestra.html">Muestras</a></li>
+      <li><a class="menu__link" href="curaduria.html">Curaduría</a></li>
+      <li><a class="menu__link" href="contacto.html">Contacto</a></li>
+    </ul>
+    <button class="menu__boton" type="button" aria-expanded="false" aria-controls="panel">
+      <span>Menú</span><span class="menu__icono" aria-hidden="true"></span>
+    </button>
+  </nav>
+
+  <div class="panel" id="panel" aria-hidden="true">
+    <ul class="panel__lista">
+      <li><a class="panel__link" href="index.html">Inicio</a></li>
+      <li><a class="panel__link" href="historia.html">Historia</a></li>
+      <li><a class="panel__link" href="tejedoras.html" aria-current="page">Tejedoras</a></li>
+      <li><a class="panel__link" href="piezas.html">Piezas</a></li>
+      <li><a class="panel__link" href="proceso.html">Proceso</a></li>
+      <li><a class="panel__link" href="muestra.html">Muestras</a></li>
+      <li><a class="panel__link" href="curaduria.html">Curaduría</a></li>
+      <li><a class="panel__link" href="contacto.html">Contacto</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <header class="proc-cab tej-cab">
+      <h1 class="titulo">Las tejedoras</h1>
+      <p>El tejido en telar se caracteriza por ser practicado fundamentalmente por mujeres. Se ha transmitido en forma oral a lo largo del tiempo hasta la actualidad.</p>
+    </header>
+
+    <!-- Fuente: Proyecto «La Pampa teje» 2026, «Las Tejedoras» y «Antecedentes» -->
+    <section class="mu-bloque tej-oficio" aria-label="El oficio">
+      <div class="mu-cols">
+        <p>Esto supone que los dibujos, los puntos y todo el conocimiento no se encuentra registrado de forma escrita, sino que se guarda en la memoria de estas mujeres.</p>
+        <p>La divulgación de estos conocimientos se realiza sobre todo a partir de la observación: en general las mujeres aprenden de pequeñas mirando cómo tejen las madres, tías o abuelas, en una práctica constante y paciente de prueba y corrección a partir de la imitación. Técnicas, diseños y formas de trabajo circulan en ámbitos familiares y comunitarios, donde madres, hijas y abuelas sostienen y recrean estos saberes a lo largo del tiempo.</p>
+        <p>Actualmente hay tejedoras en toda la provincia, pero la mayoría se encuentra en el oeste, en localidades como Santa Isabel, Puelén, Victorica y Chos Malal, entre otras.</p>
+        <p>Las tejedoras son, entonces, guardianas de la memoria cuya identidad se entrelaza en cada punto, color y diseño en piezas como ponchos, fajas o matras.</p>
+        <p>Su actividad tiene una gran significación social, y es una parte estructural en sus vidas. Es, además, un oficio que les ha dado reconocimiento por parte de sus pares y el resto de la sociedad; para muchas, ha sido fuente de logros y progresos personales y pilar en la economía familiar; muchas mujeres tejen para tener algo, según relatan de primera mano.</p>
+      </div>
+    </section>
+
+    <!-- Índice y biografías generados desde js/data/tejedoras.js + js/data/piezas.js -->
+    <nav class="tej-indice" aria-label="Índice de tejedoras"><ul id="tej-indice"></ul></nav>
+    <section class="tej-lista" id="tej-lista" aria-label="Biografías"></section>
+
+    <section class="mu-bloque tej-premiadas" aria-labelledby="t-premiadas">
+          <h2 class="titulo" id="t-premiadas">Otras tejedoras premiadas</h2>
+          <div class="libros libros--tres premiadas">
+            <div class="libro premiada" tabindex="0">
+              <p class="libro__titulo">Mabel Lis Carripilón</p>
+              <div class="premiada__mas"><div>
+              <p>Santa Isabel. Referente contemporánea del tejido en telar tradicional. Vincula tradición e innovación técnica, con fuerte anclaje en el patrimonio inmaterial.</p>
+              <p>Premio «Hacedores del Patrimonio Cultural 2023», otorgado por el Centro Internacional para la Conservación del Patrimonio.</p></div>
+              </div>
+            </div>
+            <div class="libro premiada" tabindex="0">
+              <p class="libro__titulo">Irma Cabral</p>
+              <div class="premiada__mas"><div>
+              <p>Oeste pampeano. Parte de una familia histórica de tejedoras, representa la transmisión intergeneracional del oficio.</p>
+              <p>Premio a la mejor pieza artesanal pampeana (poncho en lana hilada a mano) en la Feria de Artesanías Tradicionales Argentinas.</p></div>
+              </div>
+            </div>
+            <div class="libro premiada" tabindex="0">
+              <p class="libro__titulo">Keila Cabral</p>
+              <div class="premiada__mas"><div>
+              <p>Reconocimiento siendo muy joven, lo que muestra continuidad generacional.</p></div>
+              </div>
+            </div>
+          </div>
+        </section>
+  </main>
+
+  <footer class="pie" id="pie"></footer>
+
+  <script src="js/data/piezas.js"></script>
+  <script src="js/data/tejedoras.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/tejedoras.js"></script>
+  <script>
+    /* En el celular, el texto del oficio se muestra resumido con «Seguir leyendo» */
+    (function () {
+      var c = document.querySelector(".tej-oficio .mu-cols");
+      if (!c || c.children.length < 3) return;
+      c.classList.add("plegable", "plegado");
+      var b = document.createElement("button");
+      b.type = "button"; b.className = "seguir-leyendo"; b.textContent = "Seguir leyendo";
+      b.addEventListener("click", function () { var p = c.classList.toggle("plegado"); b.textContent = p ? "Seguir leyendo" : "Leer menos"; });
+      c.after(b);
+    })();
+  </script>
+  <script>
+    document.querySelectorAll(".premiada").forEach(function (c) {
+      c.addEventListener("click", function () { c.classList.toggle("is-abierta"); });
+    });
+  </script>
+</body>
+</html>

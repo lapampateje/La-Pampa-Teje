@@ -1,0 +1,247 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>La Pampa Teje</title>
+  <meta name="description" content="Tejido artesanal tradicional en telar de La Pampa, patrimonio vivo de la provincia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+<!-- ===== Menú ===== -->
+  <nav class="menu" aria-label="Principal">
+    <ul class="menu__lista">
+      <!-- Las demás páginas se enlazan cuando estén aprobadas -->
+      <li><a class="menu__link" href="index.html" aria-current="page">Inicio</a></li>
+      <li><a class="menu__link" href="historia.html">Historia</a></li>
+      <li><a class="menu__link" href="tejedoras.html">Tejedoras</a></li>
+      <li><a class="menu__link" href="piezas.html">Piezas</a></li>
+      <li><a class="menu__link" href="proceso.html">Proceso</a></li>
+      <li><a class="menu__link" href="muestra.html">Muestras</a></li>
+      <li><a class="menu__link" href="curaduria.html">Curaduría</a></li>
+      <li><a class="menu__link" href="contacto.html">Contacto</a></li>
+    </ul>
+    <button class="menu__boton" type="button" aria-expanded="false" aria-controls="panel">
+      <span>Menú</span><span class="menu__icono" aria-hidden="true"></span>
+    </button>
+  </nav>
+
+  <div class="panel" id="panel" aria-hidden="true">
+    <ul class="panel__lista">
+      <li><a class="panel__link" href="index.html" aria-current="page">Inicio</a></li>
+      <li><a class="panel__link" href="historia.html">Historia</a></li>
+      <li><a class="panel__link" href="tejedoras.html">Tejedoras</a></li>
+      <li><a class="panel__link" href="piezas.html">Piezas</a></li>
+      <li><a class="panel__link" href="proceso.html">Proceso</a></li>
+      <li><a class="panel__link" href="muestra.html">Muestras</a></li>
+      <li><a class="panel__link" href="curaduria.html">Curaduría</a></li>
+      <li><a class="panel__link" href="contacto.html">Contacto</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <!-- ===== 1. Portada enmarcada ===== -->
+    <section class="portada2" aria-label="Portada">
+    <header class="portada portada--marco">
+      <img class="portada__foto" src="assets/hero.jpg" alt="Manos tejiendo en un telar con hilos de lana de colores" fetchpriority="high">
+      <h1 class="visually-hidden">La Pampa Teje</h1>
+    </header>
+    </section>
+
+    <!-- ===== 2. Presentación ===== -->
+    <section class="ini ini-pres" aria-labelledby="t-pres">
+      <h2 class="titulo titulo--bold" id="t-pres">Sobre el proyecto</h2>
+      <div class="ini-pres__texto">
+        <p>La Pampa Teje es una propuesta expositiva que se orienta a visibilizar el tejido artesanal tradicional en telar de La Pampa como una de las expresiones más significativas del patrimonio vivo de la provincia, entendiendo estas prácticas no solo como manifestaciones estéticas, sino también como formas de transmisión de saberes, construcción de identidad, memoria colectiva y arraigo territorial.</p>
+        <p>Es una exhibición de arte textil de artesanas y artesanos tradicionales. Oriundos de localidades y comunidades ubicadas al oeste de la provincia, hilan, tiñen y tejen en telares autóctonos matras, ponchos, fajas y piezas derivadas de estas morfologías principales.</p>
+      </div>
+    </section>
+
+    <!-- ===== 3. Accesos a las secciones: acordeón (escritorio) / carrusel (celular) ===== -->
+    <nav class="ini ini-secciones" aria-label="Secciones del sitio">
+      <ul class="secciones" id="secciones">
+        <li class="seccion is-activa">
+          <a href="historia.html">
+            <img src="assets/historia/telar-3.jpg" alt="" loading="lazy" style="object-position:center 12%">
+            <span class="seccion__num">01</span>
+            <span class="seccion__nombre">Historia</span>
+            <span class="seccion__desc">Patrimonio, territorio y memoria</span>
+            <span class="seccion__flecha" aria-hidden="true">→</span>
+          </a>
+        </li>
+        <li class="seccion">
+          <a href="tejedoras.html">
+            <img src="assets/historia/telar-1.jpg" alt="" loading="lazy" style="object-position:62% center">
+            <span class="seccion__num">02</span>
+            <span class="seccion__nombre">Tejedoras</span>
+            <span class="seccion__desc">Las biografías de quienes tejen</span>
+            <span class="seccion__flecha" aria-hidden="true">→</span>
+          </a>
+        </li>
+        <li class="seccion">
+          <a href="piezas.html">
+            <img src="assets/piezas/131084-1.jpg" alt="" loading="lazy" style="object-position:center 30%">
+            <span class="seccion__num">03</span>
+            <span class="seccion__nombre">Piezas</span>
+            <span class="seccion__desc">El catálogo de la muestra</span>
+            <span class="seccion__flecha" aria-hidden="true">→</span>
+          </a>
+        </li>
+        <li class="seccion">
+          <a href="proceso.html">
+            <img src="assets/piezas/133605-n2.jpg" alt="" loading="lazy">
+            <span class="seccion__num">04</span>
+            <span class="seccion__nombre">Proceso</span>
+            <span class="seccion__desc">Del vellón al tejido</span>
+            <span class="seccion__flecha" aria-hidden="true">→</span>
+          </a>
+        </li>
+        <li class="seccion">
+          <a href="muestra.html">
+            <img src="assets/muestra/clp-1.jpg" alt="" loading="lazy" style="object-position:center 40%">
+            <span class="seccion__num">05</span>
+            <span class="seccion__nombre">Muestras</span>
+            <span class="seccion__desc">Bicentenario y Casa de La Pampa</span>
+            <span class="seccion__flecha" aria-hidden="true">→</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- ===== 4. Capa bordó: texto curatorial ===== -->
+    <section class="capa capa--bordo ini-cita" aria-label="Texto curatorial">
+      <blockquote class="ini-cita__frase">«Esta exhibición invita a recorrer su tierra, la del caldenal y el brillo de los salares, a través de sus tejidos.»</blockquote>
+    </section>
+
+    <!-- ===== 5. Capa lana cruda: piezas destacadas (datos desde js/data/piezas.js) ===== -->
+    <section class="capa capa--crudo ini-piezas" aria-labelledby="t-piezas">
+      <a class="ini-ver" href="piezas.html">
+        <h2 class="titulo" id="t-piezas">Ver el catálogo</h2>
+        <span class="ini-ver__flecha" aria-hidden="true">→</span>
+      </a>
+    </section>
+
+    <!-- ===== 6. Capa arena: transmisión ===== -->
+    <section class="capa capa--arena ini-saber" aria-labelledby="t-saber">
+      <div class="ini-saber__texto">
+        <h2 class="titulo" id="t-saber">Un saber que se transmite</h2>
+        <dl class="cifras">
+          <div class="cifra"><a href="tejedoras.html"><dt id="cifra-artesanos" data-contar="23">23</dt><dd>Tejedoras y tejedores <span aria-hidden="true">→</span></dd></a></div>
+          <div class="cifra"><a href="historia.html"><dt data-contar="2020" data-desde="2003">2020</dt><dd>Patrimonio Cultural de la Provincia <span aria-hidden="true">→</span></dd></a></div>
+        </dl>
+      </div>
+      <figure class="ini-saber__foto"><img src="assets/historia/telar-2.jpg" alt="Tejedora trabajando en el telar, vista a través de los hilos" loading="lazy" style="object-position:62% center"></figure>
+    </section>
+
+  </main>
+
+  <footer class="pie" id="pie"></footer>
+
+  <script src="js/data/piezas.js"></script>
+  <template id="logo-tejido"><svg class="menu__logo portada__logo--svg menu__logo--tejido" viewBox="54 69 289 75.5" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><g fill="currentColor"><path class="lg-barra lg-v" style="--i:12" d="M 106.976562 69.644531 L 103.171875 69.644531 L 103.171875 77.007812 L 106.976562 77.007812 Z M 106.976562 69.644531 "/><path class="lg-barra lg-h lg-alt" style="--i:8" d="M 106.976562 87.734375 L 106.976562 80.234375 L 103.171875 80.234375 L 103.171875 82.296875 L 88.628906 82.296875 L 88.628906 87.734375 Z M 106.976562 87.734375 "/><path class="lg-barra lg-h" style="--i:17" d="M 84.460938 82.296875 L 78.097656 82.296875 L 78.097656 87.792969 L 84.460938 87.796875 Z M 84.460938 82.296875 "/><path class="lg-barra lg-v lg-alt" style="--i:22" d="M 54.503906 95.035156 L 54.503906 107.628906 L 62.003906 107.628906 L 62.003906 95.035156 Z M 54.503906 95.035156 "/><path class="lg-barra lg-h" style="--i:19" d="M 84.519531 99.460938 L 84.519531 91.964844 L 78.097656 91.964844 L 78.097656 94.890625 L 78.125 94.890625 L 78.125 95.035156 L 66.171875 95.035156 L 66.171875 99.460938 Z M 84.519531 99.460938 "/><path class="lg-barra lg-h lg-alt" style="--i:18" d="M 84.519531 102.691406 L 66.171875 102.691406 L 66.171875 107.628906 L 78.097656 107.628906 L 78.097656 110.1875 L 84.519531 110.1875 Z M 84.519531 102.691406 "/><path class="lg-barra lg-v" style="--i:6" d="M 88.6875 91.902344 L 88.6875 110.25 L 96.1875 110.25 L 96.1875 91.902344 Z M 88.6875 91.902344 "/><path class="lg-barra lg-v lg-alt" style="--i:2" d="M 99.414062 91.902344 L 99.414062 110.25 L 106.914062 110.25 L 106.914062 91.902344 Z M 99.414062 91.902344 "/><path class="lg-barra lg-h" style="--i:7" d="M 106.976562 114.417969 L 88.628906 114.417969 L 88.628906 120.222656 L 103.171875 120.222656 L 103.171875 121.917969 L 106.976562 121.917969 Z M 106.976562 114.417969 "/><path class="lg-barra lg-v lg-alt" style="--i:11" d="M 106.976562 125.144531 L 103.171875 125.144531 L 103.171875 132.644531 L 106.976562 132.644531 Z M 106.976562 125.144531 "/><path class="lg-barra lg-h" style="--i:16" d="M 78.097656 114.355469 L 78.097656 120.21875 L 84.457031 120.21875 L 84.457031 114.355469 Z M 78.097656 114.355469 "/><path class="lg-barra lg-h lg-alt" style="--i:14" d="M 152.765625 87.734375 L 152.765625 82.296875 L 134.417969 82.296875 L 134.417969 87.734375 Z M 152.765625 87.734375 "/><path class="lg-barra lg-v" style="--i:4" d="M 119.523438 87.792969 L 119.523438 69.644531 L 112.023438 69.644531 L 112.023438 87.792969 Z M 119.523438 87.792969 "/><path class="lg-barra lg-v lg-alt" style="--i:10" d="M 130.25 87.792969 L 130.25 82.296875 L 128.4375 82.296875 L 128.4375 82.257812 L 128.355469 82.257812 L 128.355469 69.644531 L 122.75 69.644531 L 122.75 87.792969 Z M 130.25 87.792969 "/><path class="lg-barra lg-h" style="--i:1" d="M 111.960938 99.460938 L 130.308594 99.460938 L 130.308594 91.964844 L 111.960938 91.960938 Z M 111.960938 99.460938 "/><path class="lg-barra lg-h lg-alt" style="--i:0" d="M 111.960938 110.1875 L 130.308594 110.1875 L 130.308594 102.691406 L 111.960938 102.6875 Z M 111.960938 110.1875 "/><path class="lg-barra lg-v" style="--i:5" d="M 134.476562 91.902344 L 134.476562 110.25 L 141.976562 110.25 L 141.976562 91.902344 Z M 134.476562 91.902344 "/><path class="lg-barra lg-v lg-alt" style="--i:15" d="M 145.203125 91.902344 L 145.203125 110.25 L 152.703125 110.25 L 152.703125 91.902344 Z M 145.203125 91.902344 "/><path class="lg-barra lg-h" style="--i:13" d="M 134.417969 114.417969 L 134.417969 120.222656 L 152.765625 120.222656 L 152.765625 114.417969 Z M 134.417969 114.417969 "/><path class="lg-barra lg-v lg-alt" style="--i:3" d="M 112.023438 114.355469 L 112.023438 132.703125 L 119.523438 132.703125 L 119.523438 114.355469 Z M 112.023438 114.355469 "/><path class="lg-barra lg-v" style="--i:9" d="M 122.75 114.355469 L 122.75 132.703125 L 128.355469 132.703125 L 128.355469 120.226562 L 130.25 120.226562 L 130.25 114.355469 Z M 122.75 114.355469 "/><path class="lg-barra lg-h lg-alt" style="--i:21" d="M 176.097656 99.460938 L 176.097656 94.921875 L 157.75 94.921875 L 157.75 99.460938 Z M 176.097656 99.460938 "/><path class="lg-barra lg-h" style="--i:20" d="M 157.75 102.691406 L 157.75 107.511719 L 176.097656 107.511719 L 176.097656 102.691406 Z M 157.75 102.691406 "/><path class="lg-letra" style="--i:0" d="M 185.449219 107.425781 L 185.488281 78.472656 L 187.171875 78.472656 L 187.171875 105.703125 L 201.945312 105.703125 L 201.945312 107.425781 Z M 185.449219 107.425781 "/><path class="lg-letra" style="--i:1" d="M 210.476562 106.34375 C 211.34375 106.34375 212.21875 106.1875 213.101562 105.875 C 213.980469 105.5625 214.792969 105.132812 215.53125 104.59375 C 216.273438 104.050781 216.871094 103.449219 217.324219 102.78125 C 217.777344 102.113281 218.003906 101.433594 218.003906 100.738281 L 218.003906 96.695312 L 213.980469 96.773438 C 211.777344 96.816406 210.039062 97.019531 208.765625 97.394531 C 207.488281 97.769531 206.578125 98.332031 206.03125 99.085938 C 205.484375 99.839844 205.210938 100.820312 205.210938 102.019531 C 205.210938 103.382812 205.691406 104.441406 206.652344 105.203125 C 207.613281 105.964844 208.886719 106.34375 210.476562 106.34375 M 210.21875 107.828125 C 208.855469 107.828125 207.675781 107.597656 206.683594 107.136719 C 205.6875 106.675781 204.921875 106.019531 204.378906 105.171875 C 203.839844 104.324219 203.570312 103.316406 203.570312 102.140625 C 203.570312 99.816406 204.320312 98.125 205.820312 97.0625 C 207.324219 96.003906 209.789062 95.414062 213.21875 95.292969 L 218.003906 95.132812 L 218.003906 93.128906 C 218.003906 91.542969 217.523438 90.265625 216.554688 89.296875 C 215.585938 88.328125 214.09375 87.84375 212.078125 87.84375 C 210.542969 87.84375 209.257812 88.199219 208.214844 88.914062 C 207.171875 89.628906 206.539062 90.742188 206.3125 92.25 L 204.628906 92.25 C 204.710938 91.0625 205.035156 90.023438 205.601562 89.136719 C 206.167969 88.25 207 87.558594 208.09375 87.0625 C 209.1875 86.570312 210.542969 86.320312 212.160156 86.320312 C 213.640625 86.320312 214.933594 86.566406 216.042969 87.054688 C 217.152344 87.539062 218.011719 88.285156 218.625 89.285156 C 219.238281 90.285156 219.546875 91.554688 219.546875 93.089844 L 219.546875 107.425781 L 218.105469 107.425781 L 218.046875 103.222656 C 217.152344 104.941406 216.003906 106.140625 214.601562 106.816406 C 213.199219 107.488281 211.738281 107.828125 210.21875 107.828125 "/><path class="lg-letra" style="--i:2" d="M 235.285156 94.613281 L 242.734375 94.613281 C 245.242188 94.613281 247.269531 93.972656 248.820312 92.691406 C 250.367188 91.40625 251.140625 89.566406 251.140625 87.164062 C 251.140625 84.761719 250.355469 82.992188 248.78125 81.859375 C 247.203125 80.722656 245.09375 80.15625 242.453125 80.15625 L 235.285156 80.15625 Z M 233.5625 107.425781 L 233.5625 78.472656 L 242.492188 78.472656 C 244.519531 78.472656 246.320312 78.804688 247.886719 79.464844 C 249.457031 80.125 250.683594 81.109375 251.574219 82.417969 C 252.460938 83.726562 252.902344 85.347656 252.902344 87.285156 C 252.902344 89.21875 252.464844 90.859375 251.59375 92.210938 C 250.71875 93.558594 249.515625 94.582031 247.988281 95.28125 C 246.460938 95.984375 244.707031 96.335938 242.734375 96.335938 L 235.285156 96.335938 L 235.285156 107.425781 Z M 233.5625 107.425781 "/><path class="lg-letra" style="--i:3" d="M 261.132812 106.34375 C 262 106.34375 262.875 106.1875 263.757812 105.875 C 264.636719 105.5625 265.449219 105.132812 266.1875 104.59375 C 266.929688 104.050781 267.527344 103.449219 267.980469 102.78125 C 268.433594 102.113281 268.660156 101.433594 268.660156 100.738281 L 268.660156 96.695312 L 264.636719 96.773438 C 262.433594 96.816406 260.695312 97.019531 259.421875 97.394531 C 258.144531 97.769531 257.234375 98.332031 256.6875 99.085938 C 256.140625 99.839844 255.867188 100.820312 255.867188 102.019531 C 255.867188 103.382812 256.347656 104.441406 257.308594 105.203125 C 258.269531 105.964844 259.542969 106.34375 261.132812 106.34375 M 260.875 107.828125 C 259.511719 107.828125 258.332031 107.597656 257.339844 107.136719 C 256.34375 106.675781 255.578125 106.019531 255.035156 105.171875 C 254.496094 104.324219 254.226562 103.316406 254.226562 102.140625 C 254.226562 99.816406 254.976562 98.125 256.476562 97.0625 C 257.980469 96.003906 260.445312 95.414062 263.875 95.292969 L 268.660156 95.132812 L 268.660156 93.128906 C 268.660156 91.542969 268.179688 90.265625 267.210938 89.296875 C 266.242188 88.328125 264.75 87.84375 262.734375 87.84375 C 261.199219 87.84375 259.914062 88.199219 258.871094 88.914062 C 257.828125 89.628906 257.195312 90.742188 256.96875 92.25 L 255.289062 92.25 C 255.367188 91.0625 255.691406 90.023438 256.257812 89.136719 C 256.824219 88.25 257.65625 87.558594 258.75 87.0625 C 259.84375 86.570312 261.199219 86.320312 262.816406 86.320312 C 264.296875 86.320312 265.589844 86.566406 266.699219 87.054688 C 267.808594 87.539062 268.667969 88.285156 269.28125 89.285156 C 269.894531 90.285156 270.203125 91.554688 270.203125 93.089844 L 270.203125 107.425781 L 268.761719 107.425781 L 268.703125 103.222656 C 267.808594 104.941406 266.660156 106.140625 265.257812 106.816406 C 263.855469 107.488281 262.394531 107.828125 260.875 107.828125 "/><path class="lg-letra" style="--i:4" d="M 275.007812 107.425781 L 275.007812 86.722656 L 276.449219 86.722656 L 276.449219 89.804688 C 276.957031 88.886719 277.679688 88.074219 278.613281 87.375 C 279.546875 86.671875 280.816406 86.324219 282.417969 86.324219 C 283.21875 86.324219 284.027344 86.453125 284.851562 86.714844 C 285.671875 86.972656 286.410156 87.359375 287.074219 87.875 C 287.734375 88.386719 288.214844 89.019531 288.523438 89.765625 C 289.152344 88.683594 290.015625 87.839844 291.117188 87.234375 C 292.21875 86.625 293.46875 86.324219 294.871094 86.324219 C 295.566406 86.324219 296.300781 86.417969 297.082031 86.601562 C 297.863281 86.789062 298.59375 87.148438 299.277344 87.675781 C 299.957031 88.203125 300.515625 88.972656 300.949219 89.988281 C 301.382812 91 301.597656 92.34375 301.597656 94.011719 L 301.597656 107.425781 L 300.035156 107.425781 L 300.035156 94.011719 C 300.035156 92.34375 299.792969 91.066406 299.304688 90.175781 C 298.820312 89.289062 298.183594 88.679688 297.402344 88.34375 C 296.621094 88.011719 295.777344 87.84375 294.871094 87.84375 C 294.082031 87.84375 293.238281 87.992188 292.339844 88.285156 C 291.4375 88.578125 290.664062 89.097656 290.027344 89.847656 C 289.386719 90.59375 289.066406 91.648438 289.066406 93.007812 L 289.066406 107.425781 L 287.503906 107.425781 L 287.503906 92.371094 C 287.503906 91.355469 287.234375 90.515625 286.703125 89.847656 C 286.167969 89.179688 285.507812 88.679688 284.71875 88.34375 C 283.929688 88.011719 283.152344 87.84375 282.378906 87.84375 C 281.507812 87.84375 280.628906 88.015625 279.734375 88.355469 C 278.839844 88.695312 278.089844 89.246094 277.480469 90.007812 C 276.875 90.765625 276.570312 91.769531 276.570312 93.007812 L 276.570312 107.425781 Z M 275.007812 107.425781 "/><path class="lg-letra" style="--i:5" d="M 315.175781 106.34375 C 317.324219 106.34375 319.046875 105.566406 320.351562 104.011719 C 321.652344 102.457031 322.300781 100.070312 322.300781 96.855469 C 322.300781 94.144531 321.722656 91.964844 320.558594 90.316406 C 319.398438 88.667969 317.601562 87.84375 315.175781 87.84375 C 312.839844 87.84375 311.050781 88.660156 309.808594 90.285156 C 308.566406 91.914062 307.945312 94.105469 307.945312 96.855469 C 307.945312 98.683594 308.222656 100.3125 308.777344 101.738281 C 309.332031 103.167969 310.144531 104.292969 311.21875 105.113281 C 312.292969 105.933594 313.613281 106.34375 315.175781 106.34375 M 306.402344 113.875 L 306.402344 86.722656 L 307.925781 86.722656 L 308.007812 90.96875 C 308.152344 90.59375 308.386719 90.144531 308.707031 89.625 C 309.027344 89.105469 309.46875 88.589844 310.027344 88.085938 C 310.589844 87.578125 311.289062 87.15625 312.128906 86.824219 C 312.972656 86.488281 313.984375 86.320312 315.175781 86.320312 C 316.9375 86.320312 318.476562 86.695312 319.800781 87.445312 C 321.121094 88.191406 322.148438 89.332031 322.882812 90.867188 C 323.617188 92.402344 323.984375 94.34375 323.984375 96.695312 C 323.984375 98.921875 323.667969 100.871094 323.03125 102.539062 C 322.398438 104.210938 321.429688 105.507812 320.128906 106.433594 C 318.828125 107.363281 317.175781 107.828125 315.175781 107.828125 C 313.984375 107.828125 312.972656 107.65625 312.128906 107.316406 C 311.289062 106.976562 310.589844 106.542969 310.039062 106.023438 C 309.484375 105.503906 309.046875 104.976562 308.726562 104.441406 C 308.40625 103.910156 308.164062 103.441406 308.007812 103.042969 L 308.007812 113.875 Z M 306.402344 113.875 "/><path class="lg-letra" style="--i:6" d="M 333.113281 106.34375 C 333.980469 106.34375 334.855469 106.1875 335.738281 105.875 C 336.617188 105.5625 337.429688 105.132812 338.171875 104.59375 C 338.910156 104.050781 339.507812 103.449219 339.960938 102.78125 C 340.414062 102.113281 340.640625 101.433594 340.640625 100.738281 L 340.640625 96.695312 L 336.617188 96.773438 C 334.414062 96.816406 332.675781 97.019531 331.402344 97.394531 C 330.128906 97.769531 329.214844 98.332031 328.667969 99.085938 C 328.121094 99.839844 327.847656 100.820312 327.847656 102.019531 C 327.847656 103.382812 328.328125 104.441406 329.289062 105.203125 C 330.25 105.964844 331.527344 106.34375 333.113281 106.34375 M 332.855469 107.828125 C 331.492188 107.828125 330.3125 107.597656 329.320312 107.136719 C 328.324219 106.675781 327.558594 106.019531 327.015625 105.171875 C 326.476562 104.324219 326.207031 103.316406 326.207031 102.140625 C 326.207031 99.816406 326.957031 98.125 328.457031 97.0625 C 329.960938 96.003906 332.425781 95.414062 335.855469 95.292969 L 340.640625 95.132812 L 340.640625 93.128906 C 340.640625 91.542969 340.160156 90.265625 339.191406 89.296875 C 338.222656 88.328125 336.730469 87.84375 334.714844 87.84375 C 333.179688 87.84375 331.894531 88.199219 330.851562 88.914062 C 329.808594 89.628906 329.175781 90.742188 328.949219 92.25 L 327.269531 92.25 C 327.347656 91.0625 327.671875 90.023438 328.238281 89.136719 C 328.804688 88.25 329.636719 87.558594 330.730469 87.0625 C 331.824219 86.570312 333.179688 86.320312 334.796875 86.320312 C 336.277344 86.320312 337.574219 86.566406 338.679688 87.054688 C 339.789062 87.539062 340.648438 88.285156 341.265625 89.285156 C 341.878906 90.285156 342.183594 91.554688 342.183594 93.089844 L 342.183594 107.425781 L 340.742188 107.425781 L 340.683594 103.222656 C 339.789062 104.941406 338.640625 106.140625 337.238281 106.816406 C 335.835938 107.488281 334.375 107.828125 332.855469 107.828125 "/><path class="lg-letra" style="--i:8" d="M 241.730469 137.027344 L 241.730469 114.921875 L 233.523438 114.921875 L 233.523438 108.078125 L 257.828125 108.078125 L 257.828125 114.921875 L 249.542969 114.921875 L 249.542969 137.027344 Z M 241.730469 137.027344 "/><path class="lg-letra" style="--i:9" d="M 262.855469 124.09375 L 268.761719 124.09375 C 268.761719 123.574219 268.648438 123.089844 268.421875 122.640625 C 268.195312 122.195312 267.863281 121.839844 267.421875 121.570312 C 266.980469 121.304688 266.433594 121.171875 265.777344 121.171875 C 265.246094 121.171875 264.757812 121.304688 264.316406 121.570312 C 263.875 121.839844 263.523438 122.195312 263.257812 122.640625 C 262.988281 123.089844 262.855469 123.574219 262.855469 124.09375 M 266.097656 137.429688 C 263.949219 137.429688 262.058594 136.992188 260.421875 136.117188 C 258.789062 135.242188 257.515625 134.019531 256.609375 132.441406 C 255.699219 130.867188 255.246094 129.03125 255.246094 126.9375 C 255.246094 124.960938 255.664062 123.140625 256.5 121.46875 C 257.332031 119.800781 258.535156 118.460938 260.101562 117.445312 C 261.671875 116.433594 263.5625 115.925781 265.777344 115.925781 C 268.035156 115.925781 269.917969 116.390625 271.425781 117.324219 C 272.933594 118.261719 274.066406 119.539062 274.820312 121.160156 C 275.574219 122.78125 275.949219 124.613281 275.949219 126.65625 L 275.949219 128.460938 L 262.894531 128.460938 C 262.882812 129.285156 263.007812 129.960938 263.277344 130.480469 C 263.542969 131 263.90625 131.382812 264.367188 131.621094 C 264.828125 131.863281 265.339844 131.984375 265.898438 131.984375 C 266.605469 131.984375 267.242188 131.851562 267.8125 131.582031 C 268.378906 131.316406 268.824219 130.78125 269.140625 129.980469 L 276.03125 129.980469 C 275.816406 131.515625 275.210938 132.839844 274.207031 133.953125 C 273.207031 135.070312 271.988281 135.925781 270.554688 136.527344 C 269.121094 137.128906 267.632812 137.429688 266.097656 137.429688 "/><path class="lg-letra" style="--i:10" d="M 278.050781 108.078125 L 285.839844 108.078125 L 285.839844 114.644531 L 278.050781 114.644531 Z M 277.691406 143.675781 C 276.648438 143.675781 275.75 143.449219 274.988281 142.996094 L 274.949219 137.789062 L 276.167969 137.589844 C 276.902344 137.429688 277.402344 137.210938 277.660156 136.9375 C 277.921875 136.664062 278.050781 136.320312 278.050781 135.90625 L 278.050781 116.324219 L 285.839844 116.324219 L 285.839844 135.90625 C 285.839844 138.46875 285.171875 140.40625 283.839844 141.714844 C 282.503906 143.023438 280.457031 143.675781 277.691406 143.675781 "/><path class="lg-letra" style="--i:11" d="M 294.769531 124.09375 L 300.679688 124.09375 C 300.679688 123.574219 300.5625 123.089844 300.335938 122.640625 C 300.109375 122.195312 299.777344 121.839844 299.335938 121.570312 C 298.894531 121.304688 298.347656 121.171875 297.695312 121.171875 C 297.160156 121.171875 296.671875 121.304688 296.234375 121.570312 C 295.792969 121.839844 295.4375 122.195312 295.171875 122.640625 C 294.902344 123.089844 294.769531 123.574219 294.769531 124.09375 M 298.015625 137.429688 C 295.863281 137.429688 293.972656 136.992188 292.339844 136.117188 C 290.703125 135.242188 289.429688 134.019531 288.523438 132.441406 C 287.617188 130.867188 287.164062 129.03125 287.164062 126.9375 C 287.164062 124.960938 287.578125 123.140625 288.414062 121.46875 C 289.246094 119.800781 290.449219 118.460938 292.019531 117.445312 C 293.585938 116.433594 295.476562 115.925781 297.695312 115.925781 C 299.949219 115.925781 301.832031 116.390625 303.339844 117.324219 C 304.847656 118.261719 305.980469 119.539062 306.734375 121.160156 C 307.488281 122.78125 307.867188 124.613281 307.867188 126.65625 L 307.867188 128.460938 L 294.8125 128.460938 C 294.796875 129.285156 294.925781 129.960938 295.191406 130.480469 C 295.457031 131 295.820312 131.382812 296.28125 131.621094 C 296.742188 131.863281 297.253906 131.984375 297.816406 131.984375 C 298.519531 131.984375 299.160156 131.851562 299.726562 131.582031 C 300.292969 131.316406 300.738281 130.78125 301.058594 129.980469 L 307.945312 129.980469 C 307.730469 131.515625 307.125 132.839844 306.125 133.953125 C 305.121094 135.070312 303.90625 135.925781 302.46875 136.527344 C 301.035156 137.128906 299.550781 137.429688 298.015625 137.429688 "/></g></svg></template>
+  <script src="js/main.js"></script>
+  <script>
+    /* Inicio: piezas destacadas y cifra de artesanos, desde la base de piezas */
+    (function () {
+      var P = window.PIEZAS || [];
+      var cont = document.getElementById("piezas-destacadas");
+      if (cont) {
+        cont.dataset.ids.split(" ").forEach(function (id) {
+          var p = P.filter(function (x) { return x.id === id; })[0];
+          if (!p || !p.foto) return;
+          var a = document.createElement("a");
+          a.className = "obra"; a.href = "piezas.html#p" + p.id;
+          a.innerHTML = '<img loading="lazy"><span class="obra__titulo"></span><span class="obra__meta"></span>';
+          a.querySelector("img").src = p.foto;
+          a.querySelector("img").alt = p.titulo + " de " + p.artesana;
+          a.querySelector(".obra__titulo").textContent = p.titulo;
+          a.querySelector(".obra__meta").textContent = p.artesana + " · " + p.localidad;
+          cont.appendChild(a);
+        });
+      }
+      /* Portada: el logo se eleva y se desvanece suavemente al bajar */
+      var logo = document.querySelector(".portada__logo"), hero = document.querySelector(".portada");
+      if (logo && hero && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        var tk = false;
+        addEventListener("scroll", function () {
+          if (tk) return; tk = true;
+          requestAnimationFrame(function () {
+            tk = false;
+            var k = Math.min(1, scrollY / hero.offsetHeight);
+            logo.style.marginTop = (-k * 80).toFixed(1) + "px";
+            logo.style.opacity = (1 - k * 1.1).toFixed(3);
+          });
+        }, { passive: true });
+      }
+
+      /* Cita curatorial: se escribe letra por letra al llegar a ella */
+      var cita = document.querySelector(".ini-cita__frase");
+      if (cita && "IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        var txt = cita.textContent, n = 0;
+        cita.setAttribute("aria-label", txt);
+        cita.innerHTML = txt.split(" ").map(function (w) {
+          return '<span class="pal" aria-hidden="true">' + w.split("").map(function (ch) { return '<span class="let" style="--i:' + (n++) + '">' + ch + "</span>"; }).join("") + "</span>";
+        }).join(" ");
+        cita.classList.add("por-escribir");
+        var ioC = new IntersectionObserver(function (es) {
+          if (es[0].isIntersecting) { cita.classList.add("escribiendo"); ioC.disconnect(); }
+        }, { threshold: 0.45 });
+        ioC.observe(cita);
+      }
+
+      /* Acordeón de secciones: se abre la que está bajo el cursor o con foco */
+      var sec = document.getElementById("secciones");
+      if (sec) {
+        var items = sec.querySelectorAll(".seccion");
+        var activar = function (li) {
+          items.forEach(function (x) { x.classList.toggle("is-activa", x === li); });
+        };
+        items.forEach(function (li) {
+          li.addEventListener("mouseenter", function () { activar(li); });
+          li.addEventListener("focusin", function () { activar(li); });
+        });
+      }
+      /* Cifras: aparecen y cuentan cuando se llega a esa parte de la página */
+      var cifras = document.querySelector(".cifras");
+      if (cifras && "IntersectionObserver" in window) {
+        var quieto = matchMedia("(prefers-reduced-motion: reduce)").matches;
+        var ioN = new IntersectionObserver(function (es) {
+          if (!es[0].isIntersecting) return;
+          ioN.disconnect(); cifras.classList.add("is-visible");
+          if (quieto) return;
+          cifras.querySelectorAll("[data-contar]").forEach(function (dt, k) {
+            var fin = +dt.dataset.contar, ini = +(dt.dataset.desde || 0), t0 = null, dur = 1600;
+            dt.textContent = ini;
+            setTimeout(function () {
+              requestAnimationFrame(function paso(t) {
+                if (!t0) t0 = t; var x = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - x, 3);
+                dt.textContent = Math.round(ini + (fin - ini) * e);
+                if (x < 1) requestAnimationFrame(paso);
+              });
+            }, 250 + k * 250);
+          });
+        }, { threshold: 0.4 });
+        ioN.observe(cifras);
+      }
+      var c = document.getElementById("cifra-artesanos");
+      if (c && P.length) {
+        var n = {}; P.forEach(function (p) { n[p.artesana] = 1; });
+        c.textContent = c.dataset.contar = Object.keys(n).length;
+      }
+    })();
+  
+  
+    /* Logo de la barra: se teje al entrar y vuelve a tejerse al pasar el mouse */
+    (function () {
+      var tpl = document.getElementById("logo-tejido"), marca = document.querySelector(".menu__marca");
+      if (!tpl || !marca) return;
+      function poner() { var v = marca.querySelector("svg"); var n = tpl.content.firstElementChild.cloneNode(true); if (v) v.replaceWith(n); else marca.appendChild(n); }
+      poner();
+      var listo = true;
+      marca.addEventListener("mouseenter", function () {
+        if (!listo || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+        listo = false; poner(); marca.classList.add("re-teje");
+        setTimeout(function () { listo = true; }, 2600);
+      });
+    })();
+  </script>
+<script>document.body.classList.add("inicio")</script>
+
+</body></html>

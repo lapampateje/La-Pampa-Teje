@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Proceso · La Pampa Teje</title>
+  <meta name="description" content="Del vellón al tejido: el proceso de elaboración del tejido artesanal en telar de La Pampa.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="inicio proceso-pag">
+
+  <!-- ===== Menú ===== -->
+  <nav class="menu" aria-label="Principal">
+    <ul class="menu__lista">
+      <!-- Las demás páginas se enlazan cuando estén aprobadas -->
+      <li><a class="menu__link" href="index.html">Inicio</a></li>
+      <li><a class="menu__link" href="historia.html">Historia</a></li>
+      <li><a class="menu__link" href="tejedoras.html">Tejedoras</a></li>
+      <li><a class="menu__link" href="piezas.html">Piezas</a></li>
+      <li><a class="menu__link" href="proceso.html" aria-current="page">Proceso</a></li>
+      <li><a class="menu__link" href="muestra.html">Muestras</a></li>
+      <li><a class="menu__link" href="curaduria.html">Curaduría</a></li>
+      <li><a class="menu__link" href="contacto.html">Contacto</a></li>
+    </ul>
+    <button class="menu__boton" type="button" aria-expanded="false" aria-controls="panel">
+      <span>Menú</span><span class="menu__icono" aria-hidden="true"></span>
+    </button>
+  </nav>
+
+  <div class="panel" id="panel" aria-hidden="true">
+    <ul class="panel__lista">
+      <li><a class="panel__link" href="index.html">Inicio</a></li>
+      <li><a class="panel__link" href="historia.html">Historia</a></li>
+      <li><a class="panel__link" href="tejedoras.html">Tejedoras</a></li>
+      <li><a class="panel__link" href="piezas.html">Piezas</a></li>
+      <li><a class="panel__link" href="proceso.html" aria-current="page">Proceso</a></li>
+      <li><a class="panel__link" href="muestra.html">Muestras</a></li>
+      <li><a class="panel__link" href="curaduria.html">Curaduría</a></li>
+      <li><a class="panel__link" href="contacto.html">Contacto</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <header class="proc-cab">
+      <h1 class="titulo">Del vellón al tejido</h1>
+    </header>
+
+    <!-- Escena interactiva: js/proceso.js -->
+    <section class="proc" id="recorrido" aria-label="Proceso de elaboración">
+      <div data-proceso></div>
+      <div class="proc-video">
+        <a class="mu-video2" href="https://www.youtube.com/watch?v=TI3pICjf42k" target="_blank" rel="noopener">
+          <span class="mu-video2__play" aria-hidden="true"></span>
+          <span class="mu-video2__txt"><strong>Ronda de hilado</strong> Una ronda para apreciar la práctica del hilado en huso con vellones, presentada por Andrea Pombar, del Mercado Artesanal de La Pampa, en la muestra del Museo Casa Nacional del Bicentenario. <small>Ver en YouTube ↗</small></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Fuente: Proyecto «La Pampa teje» 2026, «Características del Tejido artesanal» -->
+    <section class="proc-carac proc-tecnica" id="tecnica" aria-labelledby="t-carac">
+      <h2 class="titulo" id="t-carac">Características del tejido artesanal</h2>
+      <div class="carac">
+        <div class="mu-cols proc-carac__texto">
+          <p>Junto con el hilado y la preparación de la lana, generalmente de oveja y pelo de cabra colorada, se destaca el uso del «telar pampa» o de palillos para lograr tejidos tubulares, permitiendo diseños distintos en anverso y reverso, y piezas de gran resistencia, suavidad y diseño geométrico, siendo el poncho pampa su máxima expresión, a menudo realizado con la técnica de doble tela tubular.</p>
+        </div>
+      </div>
+      <div class="carrusel carac__carrusel" aria-label="Detalles de piezas de la muestra">
+        <div class="carrusel__pista">
+          <div class="carrusel__grupo">
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#ana-sosa"><img src="assets/piezas/133629-2.jpg" alt="Detalle de camino de Ana Sosa" loading="lazy"><span>Ana Sosa</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#analia-carripilon"><img src="assets/piezas/133391-2.jpg" alt="Detalle de poncho (makün) de Analía Carripilón" loading="lazy"><span>Analía Carripilón</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#blanca-reinoso"><img src="assets/piezas/fila6-2.jpg" alt="Detalle de camino de Blanca Reinoso" loading="lazy"><span>Blanca Reinoso</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#ceferina-aino"><img src="assets/piezas/133605-n2.jpg" alt="Detalle de ataderas de Ceferina Ainó" loading="lazy"><span>Ceferina Ainó</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#ceferina-maya"><img src="assets/piezas/133774-2.jpg" alt="Detalle de matra de Ceferina Maya" loading="lazy"><span>Ceferina Maya</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#esther-peracca"><img src="assets/piezas/132335-2.jpg" alt="Detalle de poncho (maküñ) de Esther Peracca" loading="lazy"><span>Esther Peracca</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#guillermina-cabral"><img src="assets/piezas/131084-2.jpg" alt="Detalle de poncho (makün) de Guillermina Cabral" loading="lazy"><span>Guillermina Cabral</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#juana-yanten"><img src="assets/piezas/133740-2.jpg" alt="Detalle de camino de Juana Yantén" loading="lazy"><span>Juana Yantén</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#liliana-cabral"><img src="assets/piezas/132808-2.jpg" alt="Detalle de poncho (maküñ) de Liliana Cabral" loading="lazy"><span>Liliana Cabral</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#luisa-canuhe"><img src="assets/piezas/132328-2.jpg" alt="Detalle de poncho (maküñ) de Luisa Canuhé" loading="lazy"><span>Luisa Canuhé</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#maria-maya"><img src="assets/piezas/133724-2.jpg" alt="Detalle de faja de María Maya" loading="lazy"><span>María Maya</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#mario-zabala"><img src="assets/piezas/132854-2.jpg" alt="Detalle de poncho (maküñ) de Mario Zabala" loading="lazy"><span>Mario Zabala</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#nicandra-fuentes"><img src="assets/piezas/131315-2.jpg" alt="Detalle de poncho (makün) de Nicandra Fuentes" loading="lazy"><span>Nicandra Fuentes</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#noemi-zabala"><img src="assets/piezas/129041-2.jpg" alt="Detalle de matra de Noemí Zabala" loading="lazy"><span>Noemí Zabala</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#olga-lopez"><img src="assets/piezas/131712-2.jpg" alt="Detalle de par de alfombras de Olga López" loading="lazy"><span>Olga López</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#perfecta-cabral"><img src="assets/piezas/115643-2.jpg" alt="Detalle de matra de Perfecta Cabral" loading="lazy"><span>Perfecta Cabral</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#ramona-yanten"><img src="assets/piezas/133611-n2.jpg" alt="Detalle de ataderas de Ramona Yanten" loading="lazy"><span>Ramona Yanten</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#zulma-duran"><img src="assets/piezas/133749-2.jpg" alt="Detalle de faja de Zulma Durán" loading="lazy"><span>Zulma Durán</span></a>
+          </div>
+          <div class="carrusel__grupo" aria-hidden="true">
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#ana-sosa" tabindex="-1"><img src="assets/piezas/133629-2.jpg" alt="" loading="lazy"><span>Ana Sosa</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#analia-carripilon" tabindex="-1"><img src="assets/piezas/133391-2.jpg" alt="" loading="lazy"><span>Analía Carripilón</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#blanca-reinoso" tabindex="-1"><img src="assets/piezas/fila6-2.jpg" alt="" loading="lazy"><span>Blanca Reinoso</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#ceferina-aino" tabindex="-1"><img src="assets/piezas/133605-n2.jpg" alt="" loading="lazy"><span>Ceferina Ainó</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#ceferina-maya" tabindex="-1"><img src="assets/piezas/133774-2.jpg" alt="" loading="lazy"><span>Ceferina Maya</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#esther-peracca" tabindex="-1"><img src="assets/piezas/132335-2.jpg" alt="" loading="lazy"><span>Esther Peracca</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#guillermina-cabral" tabindex="-1"><img src="assets/piezas/131084-2.jpg" alt="" loading="lazy"><span>Guillermina Cabral</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#juana-yanten" tabindex="-1"><img src="assets/piezas/133740-2.jpg" alt="" loading="lazy"><span>Juana Yantén</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#liliana-cabral" tabindex="-1"><img src="assets/piezas/132808-2.jpg" alt="" loading="lazy"><span>Liliana Cabral</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#luisa-canuhe" tabindex="-1"><img src="assets/piezas/132328-2.jpg" alt="" loading="lazy"><span>Luisa Canuhé</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#maria-maya" tabindex="-1"><img src="assets/piezas/133724-2.jpg" alt="" loading="lazy"><span>María Maya</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#mario-zabala" tabindex="-1"><img src="assets/piezas/132854-2.jpg" alt="" loading="lazy"><span>Mario Zabala</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#nicandra-fuentes" tabindex="-1"><img src="assets/piezas/131315-2.jpg" alt="" loading="lazy"><span>Nicandra Fuentes</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#noemi-zabala" tabindex="-1"><img src="assets/piezas/129041-2.jpg" alt="" loading="lazy"><span>Noemí Zabala</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#olga-lopez" tabindex="-1"><img src="assets/piezas/131712-2.jpg" alt="" loading="lazy"><span>Olga López</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#perfecta-cabral" tabindex="-1"><img src="assets/piezas/115643-2.jpg" alt="" loading="lazy"><span>Perfecta Cabral</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#ramona-yanten" tabindex="-1"><img src="assets/piezas/133611-n2.jpg" alt="" loading="lazy"><span>Ramona Yanten</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#zulma-duran" tabindex="-1"><img src="assets/piezas/133749-2.jpg" alt="" loading="lazy"><span>Zulma Durán</span></a>
+          </div>
+          <div class="carrusel__grupo" aria-hidden="true">
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#ana-sosa" tabindex="-1"><img src="assets/piezas/133629-2.jpg" alt="" loading="lazy"><span>Ana Sosa</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#analia-carripilon" tabindex="-1"><img src="assets/piezas/133391-2.jpg" alt="" loading="lazy"><span>Analía Carripilón</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#blanca-reinoso" tabindex="-1"><img src="assets/piezas/fila6-2.jpg" alt="" loading="lazy"><span>Blanca Reinoso</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#ceferina-aino" tabindex="-1"><img src="assets/piezas/133605-n2.jpg" alt="" loading="lazy"><span>Ceferina Ainó</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#ceferina-maya" tabindex="-1"><img src="assets/piezas/133774-2.jpg" alt="" loading="lazy"><span>Ceferina Maya</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#esther-peracca" tabindex="-1"><img src="assets/piezas/132335-2.jpg" alt="" loading="lazy"><span>Esther Peracca</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#guillermina-cabral" tabindex="-1"><img src="assets/piezas/131084-2.jpg" alt="" loading="lazy"><span>Guillermina Cabral</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#juana-yanten" tabindex="-1"><img src="assets/piezas/133740-2.jpg" alt="" loading="lazy"><span>Juana Yantén</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#liliana-cabral" tabindex="-1"><img src="assets/piezas/132808-2.jpg" alt="" loading="lazy"><span>Liliana Cabral</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#luisa-canuhe" tabindex="-1"><img src="assets/piezas/132328-2.jpg" alt="" loading="lazy"><span>Luisa Canuhé</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#maria-maya" tabindex="-1"><img src="assets/piezas/133724-2.jpg" alt="" loading="lazy"><span>María Maya</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#mario-zabala" tabindex="-1"><img src="assets/piezas/132854-2.jpg" alt="" loading="lazy"><span>Mario Zabala</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#nicandra-fuentes" tabindex="-1"><img src="assets/piezas/131315-2.jpg" alt="" loading="lazy"><span>Nicandra Fuentes</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#noemi-zabala" tabindex="-1"><img src="assets/piezas/129041-2.jpg" alt="" loading="lazy"><span>Noemí Zabala</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#olga-lopez" tabindex="-1"><img src="assets/piezas/131712-2.jpg" alt="" loading="lazy"><span>Olga López</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#perfecta-cabral" tabindex="-1"><img src="assets/piezas/115643-2.jpg" alt="" loading="lazy"><span>Perfecta Cabral</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#ramona-yanten" tabindex="-1"><img src="assets/piezas/133611-n2.jpg" alt="" loading="lazy"><span>Ramona Yanten</span></a>
+            <a class="carrusel__foto carac__foto2" href="tejedoras.html#zulma-duran" tabindex="-1"><img src="assets/piezas/133749-2.jpg" alt="" loading="lazy"><span>Zulma Durán</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="capa capa--crudo proc-color" id="color" aria-labelledby="t-tenido">
+      <!-- Fuente: libro «Tejedoras de La Pampa: naturaleza y color» (Secretaría de Cultura de La Pampa, 2023) -->
+      <div class="tenido">
+        <div class="tenido__cab">
+          <h2 class="titulo tenido__tit" id="t-tenido">Teñido natural</h2>
+          <p>El libro <em>Tejedoras de La Pampa: naturaleza y color</em> (2023) nació de jornadas de teñido colectivo en Santa Rosa, Eduardo Castex, Victorica, Santa Isabel, Chos Malal y Puelén, donde cada artesana, sola o en grupo, eligió una planta y llevó adelante el proceso.</p>
+          <p>Estos son los pasos de la receta de teñido con piquillín de Rosa Maldonado.</p>
+        </div>
+
+        <ol class="tenido__pasos"><li><figure><img src="assets/tenido/paso-1.jpg" alt="Lana cruda y lana teñida" loading="lazy"></figure><span>01</span>La lana, ya hilada, se lava varias veces con agua tibia —preferentemente de lluvia— y jabón en pan.</li><li><figure><img src="assets/tenido/paso-2.jpg" alt="Hojas hirviendo en la olla" loading="lazy"></figure><span>02</span>La planta se deja en remojo y se hierve hasta que suelta la tinta; luego se cuela.</li><li><figure><img src="assets/tenido/paso-3.jpg" alt="Madeja teñida saliendo de la olla" loading="lazy"></figure><span>03</span>La madeja, mojada en agua fría, entra a la olla. Se agrega un mordiente, como sal gruesa, para que el color se fije.</li><li><figure><img src="assets/tenido/paso-4.jpg" alt="Planta y lana hirviendo en la olla" loading="lazy"></figure><span>04</span>Hierve revolviendo de vez en cuando para lograr un color parejo.</li><li><figure><img src="assets/tenido/paso-5.jpg" alt="Madeja teñida" loading="lazy"></figure><span>05</span>Se enjuaga —con un poco de vinagre al final— y se seca a la sombra.</li></ol>
+
+        <div class="tenido__nav"><p class="tenido__cuenta" aria-live="polite">01 / 05</p><div class="tenido__flechas"><button type="button" class="tenido__prev" aria-label="Paso anterior">←</button><button type="button" class="tenido__next" aria-label="Paso siguiente">→</button></div></div>
+
+        <h4 class="tenido__sub">Plantas que usan las tejedoras pampeanas</h4>
+        <div class="tenido__plantas"><button type="button" class="planta"><img src="assets/tenido/piquillin.jpg" alt="Piquillín, planta de herbario" loading="lazy"><span class="planta__nom">Piquillín</span><i>Condalia microphylla</i><span class="planta__mas"><span>Se usan las ramas: se corta el centro, la parte más oscura, que es donde está la tinta. Se calcula 1 kg de leña para teñir 1 kg de lana.</span></span></button><button type="button" class="planta"><img src="assets/tenido/jarilla.jpg" alt="Jarilla, planta de herbario" loading="lazy"><span class="planta__nom">Jarilla</span><i>Larrea divaricata</i><span class="planta__mas"><span>Se usan hojas y ramas, que van directo a la olla sin remojo previo. La lana queda en el hervor 10 a 15 minutos, hasta tomar el color deseado.</span></span></button><button type="button" class="planta"><img src="assets/tenido/papa-de-monte.jpg" alt="Papa de monte, planta de herbario" loading="lazy"><span class="planta__nom">Papa de monte</span><i>Prosopanche americana</i><span class="planta__mas"><span>Se hierve repetidas veces durante una semana. Cuanto más tiempo en remojo y más hervores, más intenso es el color.</span></span></button><button type="button" class="planta"><img src="assets/tenido/eucalipto.jpg" alt="Eucalipto, planta de herbario" loading="lazy"><span class="planta__nom">Eucalipto</span><i>Eucalyptus globulus</i><span class="planta__mas"><span>Se usan la corteza o las hojas. La corteza se deja en remojo uno o dos días y se hierve hasta que suelta el color.</span></span></button><button type="button" class="planta"><img src="assets/tenido/calden.jpg" alt="Caldén, planta de herbario" loading="lazy"><span class="planta__nom">Caldén</span><i>Prosopis caldenia</i><span class="planta__mas"><span>Se usa la viruta, que se remoja y se hierve varias veces durante dos días. Se cuela con una tela para que los restos no manchen la lana.</span></span></button><button type="button" class="planta"><img src="assets/tenido/retortuno.jpg" alt="Retortuño, planta de herbario" loading="lazy"><span class="planta__nom">Retortuño</span><i>Prosopis strombulifera</i><span class="planta__mas"><span>Se usan las raíces, en remojo al menos dos días. Si la raíz está fresca, desprende su color más rápido.</span></span></button><button type="button" class="planta"><img src="assets/tenido/tramontana.jpg" alt="Tramontana, planta de herbario" loading="lazy"><span class="planta__nom">Tramontana</span><i>Ephedra triandra</i><span class="planta__mas"><span>Se usa la planta completa, que se limpia y se hierve durante varias horas a lo largo de unos dos días.</span></span></button><button type="button" class="planta"><img src="assets/tenido/te-pampa.jpg" alt="Té pampa, planta de herbario" loading="lazy"><span class="planta__nom">Té pampa</span><i>Thelesperma megapotamicum</i><span class="planta__mas"><span>Se usa toda la planta, incluso la raíz, sin remojo previo. La misma preparación sirve hasta tres veces, con distintos matices del color.</span></span></button></div>
+        <p class="tenido__otras">Otras plantas tintóreas: cebolla, granada, chañar, olivillo, álamo, algarrobo, chilca, jarillilla, pichana, matorro, café y yerba mate.</p>
+      </div>
+    </section>
+
+    <!-- Tiempo y oficio. Fuentes: folleto (cita de entrada), Selección de obras (amarras),
+         biografías de las tejedoras (hilado fino) y libro «Naturaleza y color» (tiempos de teñido) -->
+    <section class="oficio" id="oficio" aria-labelledby="t-oficio">
+      <h2 class="titulo" id="t-oficio">Tiempo y oficio</h2>
+      <div class="oficio__grid">
+        <article class="oficio__item">
+          <p class="oficio__dato">+550</p>
+          <h3 class="oficio__tit">amarras en un solo poncho</h3>
+          <p>El poncho (Maküñ) de <a href="piezas.html#p132335">Esther Peracca</a>, tejido con guarda atada, lleva más de 550 amarras. Los de <a href="piezas.html#p131084">Guillermina Cabral</a>, más de 260 y más de 270.</p>
+        </article>
+        <article class="oficio__item">
+          <p class="oficio__dato">Hilo fino</p>
+          <h3 class="oficio__tit">un saber que se afina con la práctica</h3>
+          <p>«Al principio hilaba grueso pero de a poco fue hilando más fino», cuenta la biografía de <a href="tejedoras.html#rosalia-maya">Rosalía Maya</a>. El hilado de <a href="tejedoras.html#ceferina-aino">Ceferina Ainó</a> se destaca por ser fino, único en la región.</p>
+        </article>
+        <article class="oficio__item">
+          <p class="oficio__dato">Semanas</p>
+          <h3 class="oficio__tit">solo para preparar un color</h3>
+          <p>Algunos tintes piden mucho tiempo: la papa de monte se hierve repetidas veces durante una semana, y para la viruta de caldén conviene remojarla y hervirla durante una o dos semanas.</p>
+        </article>
+      </div>
+      <p class="oficio__fin"><a href="piezas.html">Ver las piezas en las que se ve este trabajo →</a></p>
+    </section>
+  </main>
+
+  <footer class="pie" id="pie"></footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/proceso.js"></script>
+  <script>
+    /* Tiempo y oficio: los datos aparecen al llegar */
+    (function () {
+      var it = document.querySelectorAll(".oficio__item");
+      if (!("IntersectionObserver" in window)) { it.forEach(function (e) { e.classList.add("is-visible"); }); return; }
+      var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("is-visible"); io.unobserve(e.target); } }); }, { threshold: .2 });
+      it.forEach(function (e) { io.observe(e); });
+    })();
+    /* Teñido: carrusel de pasos con flechas y contador */
+    (function () {
+      var l = document.querySelector(".tenido__pasos"); if (!l) return;
+      var it = l.children, prev = document.querySelector(".tenido__prev"), next = document.querySelector(".tenido__next"), c = document.querySelector(".tenido__cuenta");
+      function actual() { var x = l.scrollLeft, m = 0, d = 1e9; for (var k = 0; k < it.length; k++) { var dd = Math.abs(it[k].offsetLeft - l.offsetLeft - x); if (dd < d) { d = dd; m = k; } } return m; }
+      function marcar() { var i = actual(), fin = l.scrollLeft + l.clientWidth >= l.scrollWidth - 4; c.textContent = "0" + (fin ? it.length : i + 1) + " / 0" + it.length; prev.disabled = l.scrollLeft < 4; next.disabled = fin; }
+      function ir(d) { var i = Math.max(0, Math.min(it.length - 1, actual() + d)); l.scrollTo({ left: it[i].offsetLeft - l.offsetLeft, behavior: "smooth" }); }
+      prev.addEventListener("click", function () { ir(-1); }); next.addEventListener("click", function () { ir(1); });
+      var t; l.addEventListener("scroll", function () { clearTimeout(t); t = setTimeout(marcar, 80); }); addEventListener("resize", marcar); marcar();
+    })();
+    /* Plantas tintóreas: en pantallas táctiles se abren con un toque */
+    document.querySelectorAll(".planta").forEach(function (b) {
+      b.addEventListener("click", function () { b.classList.toggle("is-abierta"); });
+    });
+  </script>
+</body>
+</html>

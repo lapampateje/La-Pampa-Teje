@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Piezas · La Pampa Teje</title>
+  <meta name="description" content="Catálogo de piezas de tejido artesanal tradicional en telar de La Pampa.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="inicio piezas-pag">
+
+  <!-- ===== Menú (componente global) ===== -->
+  <nav class="menu" aria-label="Principal">
+    <ul class="menu__lista">
+      <li><a class="menu__link" href="index.html">Inicio</a></li>
+      <li><a class="menu__link" href="historia.html">Historia</a></li>
+      <li><a class="menu__link" href="tejedoras.html">Tejedoras</a></li>
+      <li><a class="menu__link" href="piezas.html" aria-current="page">Piezas</a></li>
+      <li><a class="menu__link" href="proceso.html">Proceso</a></li>
+      <li><a class="menu__link" href="muestra.html">Muestras</a></li>
+      <li><a class="menu__link" href="curaduria.html">Curaduría</a></li>
+      <li><a class="menu__link" href="contacto.html">Contacto</a></li>
+    </ul>
+    <button class="menu__boton" type="button" aria-expanded="false" aria-controls="panel">
+      <span>Menú</span><span class="menu__icono" aria-hidden="true"></span>
+    </button>
+  </nav>
+
+  <div class="panel" id="panel" aria-hidden="true">
+    <ul class="panel__lista">
+      <li><a class="panel__link" href="index.html">Inicio</a></li>
+      <li><a class="panel__link" href="historia.html">Historia</a></li>
+      <li><a class="panel__link" href="tejedoras.html">Tejedoras</a></li>
+      <li><a class="panel__link" href="piezas.html" aria-current="page">Piezas</a></li>
+      <li><a class="panel__link" href="proceso.html">Proceso</a></li>
+      <li><a class="panel__link" href="muestra.html">Muestras</a></li>
+      <li><a class="panel__link" href="curaduria.html">Curaduría</a></li>
+      <li><a class="panel__link" href="contacto.html">Contacto</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <!-- ===== Vista: catálogo ===== -->
+    <section class="catalogo" id="vista-catalogo" aria-labelledby="titulo-piezas">
+      <header class="catalogo__cabecera">
+        <h1 class="catalogo__titulo titulo" id="titulo-piezas">Las piezas</h1>
+        <p class="catalogo__intro">Los nombres de las obras apelan a sus diferentes usos. Algunas son voces que se escuchan hace varias centurias en el sur argentino: ataderas, fajas, matras y ponchos. Otros nombres siguen las tendencias de consumo: caminos, pares de alfombras y pies de cama. Estos textiles artesanales comparten una cualidad excepcional: reúnen utilidad y abrigo, calidad y belleza.</p>
+      </header>
+
+      <div class="filtros" id="filtros" role="search" aria-label="Explorar piezas"></div>
+      <div class="catalogo__contenido" id="catalogo-contenido" aria-live="polite"></div>
+    </section>
+
+    <!-- ===== Vista: ficha de pieza ===== -->
+    <article class="ficha" id="vista-ficha" hidden></article>
+  </main>
+
+  <!-- ===== Ampliación de fotografía ===== -->
+  <div class="zoom" id="zoom" hidden>
+    <button class="zoom__cerrar" type="button">Cerrar</button>
+    <button class="zoom__prev" type="button" aria-label="Foto anterior">←</button>
+    <img class="zoom__img" alt="">
+    <button class="zoom__next" type="button" aria-label="Foto siguiente">→</button>
+    <span class="zoom__contador" aria-live="polite"></span>
+  </div>
+
+  <noscript><p class="catalogo__intro" style="padding:0 var(--margen)">El catálogo necesita JavaScript para mostrarse.</p></noscript>
+
+  <footer class="pie" id="pie"></footer>
+
+  <script src="js/data/piezas.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/piezas.js"></script>
+</body>
+</html>

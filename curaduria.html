@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Curaduría · La Pampa Teje</title>
+  <meta name="description" content="La curaduría de La Pampa Teje: recorte curatorial, texto curatorial y curadores.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="inicio muestra-pag">
+
+  <!-- ===== Menú ===== -->
+  <nav class="menu" aria-label="Principal">
+    <ul class="menu__lista">
+      <!-- Las demás páginas se enlazan cuando estén aprobadas -->
+      <li><a class="menu__link" href="index.html">Inicio</a></li>
+      <li><a class="menu__link" href="historia.html">Historia</a></li>
+      <li><a class="menu__link" href="tejedoras.html">Tejedoras</a></li>
+      <li><a class="menu__link" href="piezas.html">Piezas</a></li>
+      <li><a class="menu__link" href="proceso.html">Proceso</a></li>
+      <li><a class="menu__link" href="muestra.html">Muestras</a></li>
+      <li><a class="menu__link" href="curaduria.html" aria-current="page">Curaduría</a></li>
+      <li><a class="menu__link" href="contacto.html">Contacto</a></li>
+    </ul>
+    <button class="menu__boton" type="button" aria-expanded="false" aria-controls="panel">
+      <span>Menú</span><span class="menu__icono" aria-hidden="true"></span>
+    </button>
+  </nav>
+
+  <div class="panel" id="panel" aria-hidden="true">
+    <ul class="panel__lista">
+      <li><a class="panel__link" href="index.html">Inicio</a></li>
+      <li><a class="panel__link" href="historia.html">Historia</a></li>
+      <li><a class="panel__link" href="tejedoras.html">Tejedoras</a></li>
+      <li><a class="panel__link" href="piezas.html">Piezas</a></li>
+      <li><a class="panel__link" href="proceso.html">Proceso</a></li>
+      <li><a class="panel__link" href="muestra.html">Muestras</a></li>
+      <li><a class="panel__link" href="curaduria.html" aria-current="page">Curaduría</a></li>
+      <li><a class="panel__link" href="contacto.html">Contacto</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <!-- Fuentes: brochure «La Pampa teje» (texto curatorial, biografías) y Proyecto 2026 (recorte curatorial). Textos sin cambios de contenido. -->
+    <header class="proc-cab">
+      <h1 class="titulo">Curaduría</h1>
+      <p>La muestra fue curada por Roxana Amarilla y co-curada y producida por Fernando Martumanian.</p>
+    </header>
+
+    <!-- Curadores: biografías del brochure (textuales) -->
+    <section class="cur-curadores" aria-label="Curadores">
+      <div class="curadores">
+        <article class="curador">
+          <p class="curador__rol">Curadora</p>
+          <h2 class="curador__nombre">Roxana Amarilla</h2>
+          <p>Es especialista en artesanías y arte popular, maestranda en Historia del Arte Argentino y Latinoamericano, Escuela Instituto de Altos Estudios Sociales EIDAES, Universidad Nacional de San Martín UNSAM; profesora del Seminario Diseños, Textiles y Texturas en Argentina y Latinoamérica, Licenciatura en Diseño de Indumentaria y Textil, Facultad de Humanidades y Artes, Universidad Nacional de Rosario; investigadora asociada del Centro de Investigaciones en Arte y Patrimonio, CIAP (CONICET-UNSAM); miembro del World Craft Council y coordinadora del Mercado de Artesanías Argentinas, Secretaría de Cultura de la Nación.</p>
+        </article>
+        <article class="curador">
+          <p class="curador__rol">Co-curador y productor</p>
+          <h2 class="curador__nombre">Fernando Martumanian</h2>
+          <p>Es Diseñador Textil con especialización en Diseño y Sociología, docente de Proyecto de indumentaria 4 y trabajo final de carrera de Diseño de Indumentaria, Facultad de Arquitectura, Diseño y Urbanismo de la Universidad Nacional de Buenos Aires; docente de Producción de moda y Diseño de indumentaria en Espacio Buenos Aires (EBA); curador y productor especializado en dirección de arte, producción de desfiles y gestión cultural del patrimonio argentino.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Recorte curatorial: solo fragmentos que no aparecen en otras páginas (Proyecto y brochure) -->
+    <section class="capa capa--bordo cur-texto" aria-labelledby="t-recorte">
+      <h2 class="titulo" id="t-recorte">El recorte curatorial</h2>
+      <div class="cur-texto__cuerpo">
+        <p>La propuesta de la muestra toma al tejido artesanal en telar como eje para abordar distintos saberes y formas de trabajo vinculadas a La Pampa y situar las piezas en relación con temas actuales como la transmisión de conocimientos entre generaciones, el trabajo artesanal, las economías regionales y el lugar de las mujeres en estos procesos.</p>
+      </div>
+      <ul class="mu-claves cur-claves" aria-label="Claves conceptuales">
+        <li>Patrimonio cultural vivo</li><li>Producción artesanal como conocimiento</li><li>Federalismo cultural</li><li>Relación arte–trabajo</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="pie" id="pie"></footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
